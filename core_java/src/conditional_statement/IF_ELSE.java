@@ -14,7 +14,7 @@ public class IF_ELSE {
 			System.out.println("statement is wrong");
 		}
 		 // ternory operator are store in string because output is string
-	String result1 =(time1<time2)? "statement is correct" :"statement is wrong";
+		String result1 =(time1<time2)? "statement is correct" :"statement is wrong";
 		System.out.println(result1);
 		
 		// if else in String

@@ -1,0 +1,130 @@
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2em;
+  border: 1px solid black;
+}
+/* class  */
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: justify;
+    text-indent: 10%;
+    line-height: 20px;
+   letter-spacing:0.75px;
+   /* text-shadow: 6px 4px 2px orangered; */
+   border: 1px solid ;
+   border-style: solid dotted;
+   width: 50%;
+   height: 60%;
+
+   padding: 5px;
+   margin: 20px auto ;
+   
+}
+/* box inside box */
+#box{
+    border: 1px solid blueviolet;
+    
+    border-width: 2px 3px 7px;
+    border-left-color: brown;
+    border-right-color: chocolate;
+    max-width: 1500px;
+}
+/*  */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: expanded;
+    text-decoration:none;
+    text-decoration-color: chocolate;
+    vertical-align: bottom;
+    border: 1px solid;
+    border-radius: 2px;
+box-shadow: -5px 5px 5px 5px orangered;
+
+}
+/* list into inline  */
+/* li{
+    display: inline-block;
+    border: 2px dotted;
+    margin: 2px;
+} */
+/* .list{
+    visibility: hidden; */
+/* } */
+/* p::first-letter{
+    font-size: 2em;
+} */
+p::first-line {
+font-size: 1.5em;
+}
+/* id */
+#fruitlist{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+/* website click or not  */
+a:link{
+    color: blue;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color: chartreuse;
+}
+a:focus{
+    color:coral;
+
+}
+a:active{
+    color: darkgoldenrod ;
+}
+
+p[id='dc']{
+    color: coral;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    /* to arrange the perfect gap */
+    margin: 10px; 
+   
+}
+ol{
+    /* list-style-type: lower-latin; */
+    /* type and position are given in same point */
+    list-style: inside upper-roman;
+}
+/* to arrange the table */
+table,th,td{
+    border-spacing: 0px;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    padding:1px;
+    
+}
+/* th{
+    text-align: center;
+    border: 2px solid olive;
+    
+}
+td{
+    text-align: center;
+    border: 1px solid blue;
+} */
+
+
+
+
+
+
+
+

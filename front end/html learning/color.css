@@ -1,0 +1,33 @@
+/* type selector */
+h1{
+    color:rgb(125, 100, 250);
+    /* color: rgba(233, 95, 172, 120); */
+    background-color:rgb(255, 234, 0);
+    text-decoration-line: underline;
+}
+h2{
+    color:olive;
+}
+/* universal selector */
+*{
+    color:royalblue;
+}
+/* id selector */
+#fruitlist{
+    color:yellowgreen;
+}
+/* class selector */
+.para{
+    color: darkmagenta;
+    background-color: aqua;
+    text-decoration-line: underline;
+}
+
+.list{
+    color:rebeccapurple;
+}
+/* child selector */
+ul>li {
+    color: coral;
+}
+

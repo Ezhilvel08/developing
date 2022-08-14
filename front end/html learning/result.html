@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script text="text/javascript" src="jsdemo.js"></script> -->
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME TO OUR SITE</h1>
+    <!-- <div id="div1">
+
+    </div>
+    <label >enter text</label>
+    <input type="text" placeholder="enter text" id="type" ><br>
+    <button onclick="html_content()">submit</button> -->
+    <h2>EVENT LISTHNER</h2>
+    
+    <button id="btn"> click me </button>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("btn").addEventListener("click",display_date)
+        function display_date(){
+            document.getElementById("demo").innerHTML="no time";
+        }
+    </script>
+
+
+   
+</body>
+</html>
